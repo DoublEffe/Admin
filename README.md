@@ -99,12 +99,15 @@ This project is not deployed yet so you can launch it only in local.
 ### Installation
 
 1. Create an account on Firebase
-2. Create an account on Atlas Mongo DB
-3. Obtain your ip and the Raspberry Pi one
-4. Save your data obtained in previous points on env file
+   * after creating an acoount go to authentication section and abilitate it then abilitate email/password. In the settings section get id projects and key api web.
+3. Create an account on Atlas Mongo DB
+   * create new cluster then new database, click on connect choose driver then c#/.net install the driver with dotnet and get the connectionUri string.
+5. Obtain your ip and the Raspberry Pi one
+6. Save your data obtained in previous points on env file
+   * put every info obtained in the right section.
    
  
-5. Run the web page local
+8. Run the web page local
   ```sh
   dotnet run
   ```
