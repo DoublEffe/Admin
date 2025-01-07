@@ -43,7 +43,7 @@
       <a href="#usage">Usage</a>
       <ul>
         <li><a href="#home">Home</a>
-        <li><a href="#insegnante">Insegnante</a>
+        <li><a href="#add/update">Add/Update</a>
       </ul>
     </li>
    <li><a href="#license">License</a></li>
