@@ -13,7 +13,6 @@
     <a href="https://github.com/DoublEffe/school/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://school-uzyr.onrender.com">Demo</a>
     ·
     <a href="https://github.com/DoublEffe/school/issues">Report bug</a>
     ·
