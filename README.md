@@ -41,7 +41,7 @@
       </ul>
     </li>
     <li>
-      <a href="#come-usare">Usage</a>
+      <a href="#usage">Usage</a>
       <ul>
         <li><a href="#home">Home</a>
         <li><a href="#insegnante">Insegnante</a>
