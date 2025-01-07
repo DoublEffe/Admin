@@ -55,22 +55,26 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About the Project
-Questo progetto permette ad un admin di gestire i dipendenti e i loro badge, scrivere sui badge le informazioni necessarie affinchè i lettori alle porte possano garantire l'accesso a chi è abilitato.
+This web page will provide the admin with a list of all employee, add new ones. 
+Also for every employee will be possible to update info delete the employee and trasfer the data to the badge so that the employee can access the restricted areas.
+This project provides also two scripts that allow you to use a Raspberry pi and an rc522 reader for badge managment.
 <p align="right">(<a href="#readme-top">back to the top</a>)</p>
 
 
 
 ### Built With
 
-La pagina web è stata sviluppata usando Razor per il frontend e .net core 9 per il backend.
-Bootstrap per gestire l'aspetto grafico.
-Firebase per l'autenticazione e AtlasDB per il database.
+The web page is developed using Razor for frontpage and .NET Core for backend.
+Bootstrap graphical purpose.
+Firebase for authentication and Atlas Mongo DB for database.
+Python for the Raspberry scripts.
 
 * [![Razor][]][]
 * [![Bootstrap][t]][]
 * [![.net core][]][]
 * [![Firebase][]][]
 * [!MonfoDB][]][]
+* [!Python][]][]
 
 
 
@@ -78,34 +82,34 @@ Firebase per l'autenticazione e AtlasDB per il database.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project is not deployed yet so you can launch it only in local.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* You will need .Net Core 9.
+
+* Raspberry Pi ( i ahve a model 3B+ but I think everything will work with newer models).
+  
+* RC 522 reader.
+
+* Firebase account.
+
+* Atlas Mongo DB account.
+  
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Create an account on Firebase
+2. Create an account on Atlas Mongo DB
+3. Obtain your ip and the Raspberry Pi one
+4. Save your data obtained in previous points on env file
+   
+ 
+5. Run the web page local
+  ```sh
+  dotnet run
+  ```
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +117,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-La prima cosa che si vede all'apertura è la pagina di login dove si dovranno immettere email, password e se non si ha un account si può passare alla pagina di registrazione che ha una struttura simile.
+The first thing you will see is the login page, if you don't have one there is a link beneath the login button this will lead to register page wich has similar structure.
 
 ![Login screen shoot](https://github.com/DoublEffe/school/blob/main/images/login.png)
 
@@ -121,41 +125,18 @@ La prima cosa che si vede all'apertura è la pagina di login dove si dovranno im
 
 ### Home
 
-La sezione Studente è divisa in due parti: 
+In this page we will see the add button for adding new employee, and the the list of all employee.
+Each employee has three buttons save the employee data to the badge, update the employee data and delete the employee.
 
-* selezione delle materie per accedere agli esercizi.
 
 ![student main page](https://github.com/DoublEffe/school/blob/main/images/studente1.png)
 
-* una volta selezionata la materia la pagina ci mostrerà gli esercizi associati ad essa assegnati dall'insegnante.
 
-![student exercise page](https://github.com/DoublEffe/school/blob/main/images/studente1-1.png)
+### Add/Update 
 
-* chat con IA.
-
-![student chat](https://github.com/DoublEffe/school/blob/main/images/studente2.png)
-
-
-
-### Insegnante
-
-La sezione Insegnante è divisa in tre parti:
-
-* sezione principale dove compare la lista delle classi tenute dall'insegnante.
+In this page there is a form wich will add or update the employee they are very similar.
 
 ![teacher main page](https://github.com/DoublEffe/school/blob/main/images/insegnante1.png)
-
-* una volta selezionata la classela pagina ci mostrerà le risposte date dagli studenti.
-
-![teacher exercise page](https://github.com/DoublEffe/school/blob/main/images/insegnante1-1.png)
-
-* assegnazione esercizi per materie e classe.
-
-  ![teacher assign page](https://github.com/DoublEffe/school/blob/main/images/insegnante2.png)
-
-* pagina di statistiche per tema.
-
-![teacher statistics page](https://github.com/DoublEffe/school/blob/main/images/insegnate3.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
