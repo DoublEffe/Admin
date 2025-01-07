@@ -43,7 +43,7 @@
       <a href="#usage">Usage</a>
       <ul>
         <li><a href="#home">Home</a>
-        <li><a href="#add/update">Add/Update</a>
+        <li><a href="#add-update">Add/Update</a>
       </ul>
     </li>
    <li><a href="#license">License</a></li>
@@ -134,7 +134,7 @@ Each employee has three buttons save the employee data to the badge, update the 
 ![student main page](https://github.com/DoublEffe/school/blob/main/images/studente1.png)
 
 
-### Add/Update 
+### Add-Update 
 
 In this page there is a form wich will add or update the employee they are very similar.
 
