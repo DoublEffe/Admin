@@ -8,16 +8,16 @@
   <h3 align="center">Admin</h3>
   <img src="https://github.com/DoublEffe/school/blob/main/images/tabler_school.svg" width="100" height="100">
   <p align="center">
-    PAgina web per gestire impiegati e gestire i badge e i permessi di accesso.
+    Web page to manage employee badges.
     <br />
-    <a href="https://github.com/DoublEffe/school/blob/main/README.md"><strong>Escplora la documentazione »</strong></a>
+    <a href="https://github.com/DoublEffe/school/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://school-uzyr.onrender.com">Demo</a>
     ·
-    <a href="https://github.com/DoublEffe/school/issues">Riporta bug</a>
+    <a href="https://github.com/DoublEffe/school/issues">Report bug</a>
     ·
-    <a href="https://github.com/DoublEffe/school/issues">Richiedi Feature</a>
+    <a href="https://github.com/DoublEffe/school/issues">Request feature</a>
   </p>
 </div>
 
@@ -25,21 +25,29 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Contenuti</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Spiegazione progetto</a>
+      <a href="#about-the-project">About the Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#come-usare">Come Usare</a>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#come-usare">Usage</a>
       <ul>
         <li><a href="#home">Home</a>
         <li><a href="#insegnante">Insegnante</a>
       </ul>
     </li>
+   <li><a href="#license">License</a></li>
   </ol>
 </details>
 
