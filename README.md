@@ -54,9 +54,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Spiegazione progetto
+## About the Project
 Questo progetto permette ad un admin di gestire i dipendenti e i loro badge, scrivere sui badge le informazioni necessarie affinchè i lettori alle porte possano garantire l'accesso a chi è abilitato.
-<p align="right">(<a href="#readme-top">torna all'inizio</a>)</p>
+<p align="right">(<a href="#readme-top">back to the top</a>)</p>
 
 
 
@@ -76,10 +76,42 @@ Firebase per l'autenticazione e AtlasDB per il database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
-## Come Usare
+## Usage
 
 La prima cosa che si vede all'apertura è la pagina di login dove si dovranno immettere email, password e se non si ha un account si può passare alla pagina di registrazione che ha una struttura simile.
 
@@ -128,6 +160,11 @@ La sezione Insegnante è divisa in tre parti:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
