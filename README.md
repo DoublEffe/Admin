@@ -155,7 +155,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [net core]: https://dotnet.microsoft.com/it-it/download/dotnet/9.0  
-[net core badge]: https://img.shields.io/badge/.NET%CORE&9-DD0031?style=for-the-badge&logo=dotnet&logoColor=white
+[net core badge]: https://img.shields.io/badge/.NET%CORE&9-DD0031?logo=dotnet&logoColor=white
 [razor badge]: https://img.shields.io/badge/RAZOR-8A2BE2
 [razor]: https://learn.microsoft.com/it-it/aspnet/core/mvc/views/razor?view=aspnetcore-9.0
 [bootstrap badge]: https://img.shields.io/badge/BOOTstrap-DD0031?style=for-the-badge&logo=bootstrap&logoColor=white
