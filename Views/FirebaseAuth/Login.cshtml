@@ -1,0 +1,25 @@
+@model Admin.Models.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<h2>Login</h2>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group mb-2">
+                <label asp-for="@Model.Email" class="control-label"></label>
+                <input asp-for="@Model.Email" class="form-control" type="email" />
+                <span asp-validation-for="@Model.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="@Model.Password" class="control-label"></label>
+                <input asp-for="@Model.Password" class="form-control" type="password" />
+                <span asp-validation-for="@Model.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+        <a asp-controller="FirebaseAuth" asp-action="Signup">Non hai un account? Registrati.</a>
+    </div>
+</div>

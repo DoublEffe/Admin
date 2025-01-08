@@ -1,0 +1,28 @@
+﻿@model Admin.Models.EmployeeModel
+@{
+    ViewData["Title"] = "AddPage";
+}
+
+<div class="text-center">
+    <form method="post" asp-action="Add">
+            <div class="form-group mb-3 d-flex justify-content-center flex-column ">
+                <label asp-for="@Model.Nome" class="control-label"></label>
+                <input asp-for="@Model.Nome" class="form-control w-50" type="text" required/>
+                <span asp-validation-for="@Model.Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="@Model.Cognome" class="control-label"></label>
+                <input asp-for="@Model.Cognome" class="form-control w-50" type="text" />
+                <span asp-validation-for="@Model.Cognome" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="@Model.Ruolo" class="control-label"></label>
+                <input asp-for="@Model.Ruolo" class="form-control w-50" type="text" />
+                <span asp-validation-for="@Model.Ruolo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" >Aggiungi</button>
+                
+            </div>
+    </form>
+</div>
