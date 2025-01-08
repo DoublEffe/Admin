@@ -68,7 +68,7 @@ Bootstrap graphical purpose.
 Firebase for authentication and Atlas Mongo DB for database.
 Python for the Raspberry scripts.
 
-* [![Razor][razor]][razor badge]
+* [![Razor][razor badge]][razor]
 * [![Bootstrap][t]][]
 * [![.net core][]][]
 * [![Firebase][]][]
