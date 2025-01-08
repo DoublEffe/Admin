@@ -35,17 +35,21 @@ public class HomeController : Controller
 
     [HttpGet]
     public async Task <IActionResult> Home(){
-      try {
-        FilterDefinition<AllEmployeeModel> filter = Builders<AllEmployeeModel>.Filter.Ne("Nome","test");
-        var employeeDb = _client.GetDatabase("fabio").GetCollection<AllEmployeeModel>("Employee");
-        var allEmployee = await employeeDb.Find(filter).ToListAsync();
-        ViewBag.All = allEmployee;
-        return View(allEmployee);
-      } catch (Exception e) {
-        _logger.LogInformation(e.Message);
-        ModelState.AddModelError(string.Empty, e.Message);
+      var token = HttpContext.Session.GetString("token");
+      if(!string.IsNullOrEmpty(token)){
+        try {
+          FilterDefinition<AllEmployeeModel> filter = Builders<AllEmployeeModel>.Filter.Ne("Nome","test");
+          var employeeDb = _client.GetDatabase("fabio").GetCollection<AllEmployeeModel>("Employee");
+          var allEmployee = await employeeDb.Find(filter).ToListAsync();
+          ViewBag.All = allEmployee;
+          return View(allEmployee);
+        } catch (Exception e) {
+          _logger.LogInformation(e.Message);
+          ModelState.AddModelError(string.Empty, e.Message);
+        }
+        return View();
       }
-      return View();
+      return RedirectToRoute("default");
     }
 
     [HttpPost("ToBadge")]
@@ -92,6 +96,12 @@ public class HomeController : Controller
           ModelState.AddModelError(string.Empty, e.Message);
         }
         return RedirectToAction("Home", "Home");
+    }
+
+    [HttpGet]
+    public IActionResult Logout(){
+      _logger.LogInformation("yyyyyyy");
+      return RedirectToRoute("default");
     }
 
 

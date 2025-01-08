@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using DotNetEnv;
+using FirebaseAdmin.Auth;
 
 //provare page invece di view in authorizepage
 //provare il reindirizzamento ad auth se token esiste altrimenti non-auth nel middleware, vdere se il reindirizzamento funziona sempre
@@ -75,19 +76,23 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseSession();
-app.Use(async (context, next) =>
+/*app.Use(async (context, next) =>
 {
     var token = context.Session.GetString("token");
     if (!string.IsNullOrEmpty(token))
     {
-        context.Request.Headers.Add("Authorization", "Bearer " + token);
-
+        context.Response.Redirect("/Home");
+        return;
+        
+    }
+    else{
+        context.Response.Redirect("/");
         
     }
     
    
     await next();
-});
+});*/
 
 app.UseStatusCodePages(contextAccessor =>
 {

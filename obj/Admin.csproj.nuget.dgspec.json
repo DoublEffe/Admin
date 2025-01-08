@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[4.1.0, )"
