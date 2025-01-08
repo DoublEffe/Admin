@@ -71,9 +71,9 @@ Python for the Raspberry scripts.
 * [![Razor][razor badge]][razor]
 * [![Bootstrap][bootstrap badge]][bootstrap]
 * [![.net core][net core badge]][net core]
-* [![Firebase][]][]
-* [!MonfoDB][]][]
-* [!Python][]][]
+* [![Firebase][firebase badge]][firebase]
+* [!MonfoDB][mongo badge]][mongo]
+* [!Python][python badge]][python]
 
 
 
@@ -158,7 +158,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [net core badge]: https://img.shields.io/badge/NET%20CORE%209-DD0031?style=for-the-badge&logo=dotnet&logoColor=white&logoSize=auto
 [razor badge]: https://img.shields.io/badge/RAZOR-DD0031?style=for-the-badge&logoColor=white
 [razor]: https://learn.microsoft.com/it-it/aspnet/core/mvc/views/razor?view=aspnetcore-9.0
-[bootstrap badge]: https://img.shields.io/badge/BOOTSTRAP-DD0031?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap badge]: https://img.shields.io/badge/BOOTSTRAP-DD0031?style=for-the-badge&logo=bootstrap&logoColor=white&logoSize=auto
 [bootstrap]: https://getbootstrap.com/
 [firebase]: https://console.firebase.google.com/
-[firebase badge]: https://img.shields.io/badge/FIREBASE-DD0031?style=for-the-badge&logo=firebase&logoColor=white
+[firebase badge]: https://img.shields.io/badge/FIREBASE-DD0031?style=for-the-badge&logo=firebase&logoColor=white&logoSize=auto
+[mongo badge]: https://img.shields.io/badge/ATLAS%20MONGO%20DB-DD0031?style=for-the-badge&logo=mongoose&logoColor=white&logoSize=auto
+[mongo]: https://www.mongodb.com/products/platform/atlas-database
