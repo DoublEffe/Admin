@@ -27,7 +27,7 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger, IHttpClientFactory httpFactory, INotyfService toastNotification)
     {
         _logger = logger;
-        _client = new MongoClient("mongodb+srv://fabio:1234@cluster0.bg7sv.mongodb.net/admin?retryWrites=true&w=majority&appName=Cluster0");
+        _client = new MongoClient(DotNetEnv.Env.GetString("MongoDB_Key"));
         _httpFactory = httpFactory;
         _toastNotification = toastNotification;
     }
@@ -65,7 +65,7 @@ public class HomeController : Controller
           Encoding.UTF8,
           Application.Json
         );
-        var resposne = await httpClient.PostAsync("http://192.168.178.36:8000/", json);
+        var resposne = await httpClient.PostAsync(DotNetEnv.Env.GetString("Raspberry_IP"), json);
         if(resposne.IsSuccessStatusCode){
           _toastNotification.Success("Dati scritti su badge");
         }

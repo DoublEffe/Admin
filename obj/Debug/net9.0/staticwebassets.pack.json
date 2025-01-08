@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\dev\\c#\\Admin\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "D:\\dev\\c#\\Admin\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -255,6 +251,10 @@
     {
       "Id": "D:\\dev\\c#\\Admin\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\dev\\c#\\Admin\\wwwroot\\logo.ico",
+      "PackagePath": "staticwebassets\\logo.ico"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Admin.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

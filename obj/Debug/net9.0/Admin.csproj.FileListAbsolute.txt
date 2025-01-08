@@ -17,7 +17,6 @@ D:\dev\c#\Admin\obj\Debug\net9.0\Admin.RazorAssemblyInfo.cs
 D:\dev\c#\Admin\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\dev\c#\Admin\obj\Debug\net9.0\scopedcss\bundle\Admin.styles.css
 D:\dev\c#\Admin\obj\Debug\net9.0\scopedcss\projectbundle\Admin.bundle.scp.css
-D:\dev\c#\Admin\obj\Debug\net9.0\compressed\hxd4ywi95n-61n19gt1b8.gz
 D:\dev\c#\Admin\obj\Debug\net9.0\compressed\05cwo316i0-xtxxf3hu2r.gz
 D:\dev\c#\Admin\obj\Debug\net9.0\compressed\vfwgpy4v3c-bqjiyaj88i.gz
 D:\dev\c#\Admin\obj\Debug\net9.0\compressed\sje3g4lshx-c2jlpeoesf.gz
@@ -122,3 +121,5 @@ D:\dev\c#\Admin\obj\Debug\net9.0\compressed\9op22eqad8-cl5rrypo7e.gz
 D:\dev\c#\Admin\obj\Debug\net9.0\compressed\3l0vwdyv9e-z98zp0ll75.gz
 D:\dev\c#\Admin\bin\Debug\net9.0\DotNetEnv.dll
 D:\dev\c#\Admin\bin\Debug\net9.0\Sprache.dll
+D:\dev\c#\Admin\obj\Debug\net9.0\Admin.sourcelink.json
+D:\dev\c#\Admin\obj\Debug\net9.0\compressed\bz5k088ply-as9h7qra36.gz
