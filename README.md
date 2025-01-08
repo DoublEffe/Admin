@@ -72,8 +72,8 @@ Python for the Raspberry scripts.
 * [![Bootstrap][bootstrap badge]][bootstrap]
 * [![.net core][net core badge]][net core]
 * [![Firebase][firebase badge]][firebase]
-* [!MonfoDB][mongo badge]][mongo]
-* [!Python][python badge]][python]
+* [![MonfoDB][mongo badge]][mongo]
+* [![Python][python badge]][python]
 
 
 
