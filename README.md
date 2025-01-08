@@ -5,7 +5,7 @@
 <br />
 <div align="center">
  
-  <h3 align="center">Admin</h3>
+  <h3 align="center">ADMIN</h3>
   <img src="https://github.com/DoublEffe/school/blob/main/images/tabler_school.svg" width="100" height="100">
   <p align="center">
     Web page to manage employee badges.
