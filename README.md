@@ -104,10 +104,13 @@ This project is not deployed yet so you can launch it only in local.
    * create new cluster then new database, click on connect choose driver then c#/.net install the driver with dotnet and get the connectionUri string.
    * from coonect find the string also for python you will need it in Raspberry Pi.
 5. Obtain your ip and the Raspberry Pi one
-6. Create an .env file and save your data obtained in previous points on it
-   * put every info obtained in the right section.
-   
- 
+6. python libraries FastApi e pi-rc522.
+   ```sh
+    pip install "fastapi[standard]"
+    pip install pi-rc522
+   ```
+7. Create an .env file and save your data obtained in previous points on it
+   * put every info obtained in the right section. 
 8. Run the web page local
   ```sh
   dotnet run
