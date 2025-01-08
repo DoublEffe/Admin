@@ -155,10 +155,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [net core]: https://dotnet.microsoft.com/it-it/download/dotnet/9.0  
-[net core badge]: https://img.shields.io/badge/NET%20CORE%209-DD0031?style=for-the-badge&logo=dotnet&logoColor=white
+[net core badge]: https://img.shields.io/badge/NET%20CORE%209-DD0031?style=for-the-badge&logo=dotnet&logoColor=white&logoSize=auto
 [razor badge]: https://img.shields.io/badge/RAZOR-DD0031?style=for-the-badge&logoColor=white
 [razor]: https://learn.microsoft.com/it-it/aspnet/core/mvc/views/razor?view=aspnetcore-9.0
-[bootstrap badge]: https://img.shields.io/badge/BOOTstrap-DD0031?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap badge]: https://img.shields.io/badge/BOOTSTRAP-DD0031?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap]: https://getbootstrap.com/
-[postGreSQL]: https://img.shields.io/badge/PostgreSQl-DD0031?style=for-the-badge&logo=postgresql&logoColor=white
-[postgresql]: https://www.postgresql.org/
+[firebase]: https://console.firebase.google.com/
+[firebase badge]: https://img.shields.io/badge/FIREBASE-DD0031?style=for-the-badge&logo=firebase&logoColor=white
