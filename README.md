@@ -168,4 +168,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [mongo badge]: https://img.shields.io/badge/ATLAS%20MONGO%20DB-DD0031?style=for-the-badge&logo=mongodb&logoColor=white&logoSize=auto
 [mongo]: https://www.mongodb.com/products/platform/atlas-database
 [python]: https://www.python.org/
-[python badge]: https://img.shields.io/badge/ATLAS%20MONGO%20DB-DD0031?style=for-the-badge&logo=python&logoColor=white&logoSize=auto
+[python badge]: https://img.shields.io/badge/PYTHON-DD0031?style=for-the-badge&logo=python&logoColor=white&logoSize=auto
