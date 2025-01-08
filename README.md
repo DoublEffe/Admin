@@ -6,7 +6,7 @@
 <div align="center">
  
   <h3 align="center">ADMIN</h3>
-  <img src="https://github.com/DoublEffe/school/blob/main/images/tabler_school.svg" width="100" height="100">
+  <img src="https://github.com/DoublEffe/Admin/blob/main/images/logo.jpg" width="100" height="100">
   <p align="center">
     Web page to manage employee badges.
     <br />
@@ -122,7 +122,7 @@ This project is not deployed yet so you can launch it only in local.
 
 The first thing you will see is the login page, if you don't have one there is a link beneath the login button this will lead to register page wich has similar structure.
 
-![Login screen shoot](https://github.com/DoublEffe/school/blob/main/images/login.png)
+![Login screen shoot](https://github.com/DoublEffe/Admin/blob/main/images/login.png)
 
 
 
@@ -132,14 +132,14 @@ In this page we will see the add button for adding new employee, and the the lis
 Each employee has three buttons save the employee data to the badge, update the employee data and delete the employee.
 
 
-![student main page](https://github.com/DoublEffe/school/blob/main/images/studente1.png)
+![student main page](https://github.com/DoublEffe/Admin/blob/main/images/home.png)
 
 
 ### Add-Update 
 
 In this page there is a form wich will add or update the employee they are very similar.
 
-![teacher main page](https://github.com/DoublEffe/school/blob/main/images/insegnante1.png)
+![teacher main page](https://github.com/DoublEffe/Admin/blob/main/images/add.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
