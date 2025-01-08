@@ -10,13 +10,13 @@
   <p align="center">
     Web page to manage employee badges.
     <br />
-    <a href="https://github.com/DoublEffe/school/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DoublEffe/Admin/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/DoublEffe/school/issues">Report bug</a>
+    <a href="https://github.com/DoublEffe/Admin/issues">Report bug</a>
     ·
-    <a href="https://github.com/DoublEffe/school/issues">Request feature</a>
+    <a href="https://github.com/DoublEffe/Admin/issues">Request feature</a>
   </p>
 </div>
 
@@ -68,7 +68,7 @@ Bootstrap graphical purpose.
 Firebase for authentication and Atlas Mongo DB for database.
 Python for the Raspberry scripts.
 
-* [![Razor][]][]
+* [![Razor][razor]][razor badge]
 * [![Bootstrap][t]][]
 * [![.net core][]][]
 * [![Firebase][]][]
@@ -154,11 +154,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[Angular.io]: https://angular.io/
-[Angular-url]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-design-kit]: https://img.shields.io/badge/Angular%20Design%20Kit-8A2BE2
-[Angular-material.io]: https://design-angular-kit.vercel.app/design-angular-kit#/info/welcome
-[Laravel]: https://img.shields.io/badge/Laravel-DD0031?style=for-the-badge&logo=laravel&logoColor=white
-[laravel]: https://laravel.com/
+[net core 9]: https://dotnet.microsoft.com/it-it/download/dotnet/9.0  
+[net core badge]: https://img.shields.io/badge/.NET%CORE&9-DD0031?style=for-the-badge&logo=dotnet&logoColor=white
+[razor badge]: https://img.shields.io/badge/RAZOR%20Design%20Kit-8A2BE2
+[razor]: https://learn.microsoft.com/it-it/aspnet/core/mvc/views/razor?view=aspnetcore-9.0
+[bootstrap badge]: https://img.shields.io/badge/BOOTstrap-DD0031?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap]: https://getbootstrap.com/
 [postGreSQL]: https://img.shields.io/badge/PostgreSQl-DD0031?style=for-the-badge&logo=postgresql&logoColor=white
 [postgresql]: https://www.postgresql.org/
