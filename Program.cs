@@ -6,10 +6,10 @@ using Firebase.Auth;
 using Firebase.Auth.Providers;
 using Microsoft.AspNetCore.Authentication.BearerToken;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
+
+
 using DotNetEnv;
-using FirebaseAdmin.Auth;
+
 
 //provare page invece di view in authorizepage
 //provare il reindirizzamento ad auth se token esiste altrimenti non-auth nel middleware, vdere se il reindirizzamento funziona sempre
@@ -17,11 +17,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 DotNetEnv.Env.Load();
 // Add auth schema
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+/*builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options => {
-  /*
+  
   options.LoginPath = "/";
-  options.AccessDeniedPath = "/Auth";*/
+  options.AccessDeniedPath = "/Auth";
   options.Authority = $"https://securetoken.google.com/" + DotNetEnv.Env.GetString("Firebase_ID");
         options.TokenValidationParameters = new TokenValidationParameters
         {
@@ -31,7 +31,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidAudience =  DotNetEnv.Env.GetString("Firebase_ID"),
             ValidateLifetime = true
         };
-});
+});*/
 
 builder.Services.AddHttpClient();
 

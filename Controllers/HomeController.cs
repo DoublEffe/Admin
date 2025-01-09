@@ -35,8 +35,8 @@ public class HomeController : Controller
 
     [HttpGet]
     public async Task <IActionResult> Home(){
-      var token = HttpContext.Session.GetString("token");
-      if(!string.IsNullOrEmpty(token)){
+      //var token = HttpContext.Session.GetString("token");
+      //if(!string.IsNullOrEmpty(token)){
         try {
           FilterDefinition<AllEmployeeModel> filter = Builders<AllEmployeeModel>.Filter.Ne("Nome","test");
           var employeeDb = _client.GetDatabase("fabio").GetCollection<AllEmployeeModel>("Employee");
@@ -48,8 +48,8 @@ public class HomeController : Controller
           ModelState.AddModelError(string.Empty, e.Message);
         }
         return View();
-      }
-      return RedirectToRoute("default");
+      //}
+      //return RedirectToRoute("default");
     }
 
     [HttpPost("ToBadge")]
@@ -98,9 +98,10 @@ public class HomeController : Controller
         return RedirectToAction("Home", "Home");
     }
 
-    [HttpGet]
+    [HttpGet("Logout")]
     public IActionResult Logout(){
-      _logger.LogInformation("yyyyyyy");
+      HttpContext.Session.Remove("token");
+      _logger.LogInformation("pppp");
       return RedirectToRoute("default");
     }
 

@@ -108,13 +108,21 @@ This project is not deployed yet so you can launch it only in local.
    ```sh
     pip install "fastapi[standard]"
     pip install pi-rc522
+    pip install "pymongo[srv]"
    ```
 7. Create an .env file and save your data obtained in previous points on it
    * put every info obtained in the right section. 
-8. Run the web page local
-  ```sh
-  dotnet run
-  ```
+8. Install the required Nuget packages.
+    ```sh
+    dotnet add package FirebaseAuthentication.net
+    dotnet add package DotNetEnv
+    dotnet add package AspNetCoreHero.ToastNotification
+    dotnet add package MongoDB.Driver
+    ```
+9. Run the web page local
+    ```sh
+    dotnet run
+    ```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
