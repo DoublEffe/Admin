@@ -100,7 +100,7 @@ public class HomeController : Controller
 
     [HttpGet("Logout")]
     public IActionResult Logout(){
-      HttpContext.Session.Remove("token");
+      HttpContext.Session.Clear();
       _logger.LogInformation("pppp");
       return RedirectToRoute("default");
     }

@@ -101,8 +101,8 @@ This project is not deployed yet so you can launch it only in local.
 1. Create an account on Firebase
    * after creating an acoount go to authentication section and abilitate it then abilitate email/password. In the settings section get id projects and key api web.
 3. Create an account on Atlas Mongo DB
-   * create new cluster then new database, click on connect choose driver then c#/.net install the driver with dotnet and get the connectionUri string.
-   * from coonect find the string also for python you will need it in Raspberry Pi.
+   * create new cluster 
+   * go to connect section and retrieve the connection string.
 5. Obtain your ip and the Raspberry Pi one
 6. python libraries FastApi e pi-rc522.
    ```sh
