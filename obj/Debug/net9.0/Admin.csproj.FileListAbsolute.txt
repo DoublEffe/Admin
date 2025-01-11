@@ -114,5 +114,4 @@ D:\dev\c#\Admin\bin\Debug\net9.0\DotNetEnv.dll
 D:\dev\c#\Admin\bin\Debug\net9.0\Sprache.dll
 D:\dev\c#\Admin\obj\Debug\net9.0\Admin.sourcelink.json
 D:\dev\c#\Admin\obj\Debug\net9.0\compressed\bz5k088ply-as9h7qra36.gz
-D:\dev\c#\Admin\obj\Debug\net9.0\compressed\xagjxssxzu-40ykdmiep7.gz
-D:\dev\c#\Admin\obj\Debug\net9.0\compressed\05cwo316i0-i5p162d5j7.gz
+D:\dev\c#\Admin\obj\Debug\net9.0\compressed\05cwo316i0-owlyildwth.gz

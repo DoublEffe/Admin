@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\dev\\c#\\Admin\\wwwroot\\js\\logout.js",
-      "PackagePath": "staticwebassets\\js\\logout.js"
-    },
-    {
       "Id": "D:\\dev\\c#\\Admin\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
